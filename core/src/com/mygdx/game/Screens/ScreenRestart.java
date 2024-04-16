@@ -45,7 +45,7 @@ public class ScreenRestart implements Screen {
                 myGdxGame.setScreen(myGdxGame.screenGame);
             }
             if (buttonMenu.isHit((int) touch.x, (int) touch.y)) {
-                // myGdxGame.setScreen(myGdxGame.screenMenu);
+                myGdxGame.setScreen(myGdxGame.screenMenu);
             }
         }
         ScreenUtils.clear(1, 0, 0, 1);
